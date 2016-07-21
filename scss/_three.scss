@@ -1,0 +1,29 @@
+.three {
+	
+	width:1140px;
+	text-align: center;
+	margin:$margin*2 auto;
+	div {
+
+		width: 360px;
+		height: 175px;
+		border:2px solid lighten($boz,30%);
+		float: left;
+		margin:$margin/2;
+	}
+	div:hover{border:2px solid $mavi;}
+	p:first-child {
+
+		font-size: 30px;
+		line-height:50px;
+		margin-top:2*$margin;
+		color:$boz;
+	}
+		p:last-child {
+
+		font-size: 20;
+
+		color:lighten($boz,30%);
+	}
+
+}

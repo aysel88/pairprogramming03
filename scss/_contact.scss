@@ -1,0 +1,43 @@
+.contact {
+	
+	height:45px;
+	width:100%;
+	color:$aciqboz;
+	
+
+	p:first-child{
+
+		margin-left:$leftright;
+	};
+	p {
+	margin-left:-4px;
+	padding:2*$padding;
+	border:1px solid  lighten($aciqboz, 30%);
+	display:inline-block;
+	line-height:25px;
+	}
+	ul {
+		margin-right:$leftright;
+		display:inline-block;
+		float:right;
+
+		li {
+
+		display:inline-block;
+
+			a {
+				padding:14px;
+				text-align: center;
+				line-height:45px;
+				color:$aciqboz;
+				text-decoration: none;
+				
+			}
+			a:hover{
+
+				background-color:blue;
+			}
+		}
+	}
+}
+

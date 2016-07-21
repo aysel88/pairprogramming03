@@ -1,0 +1,60 @@
+.hello {
+	clear:both;
+	width: 100%;
+	background: #3E4444;
+	overflow: hidden;
+	div:first-child{
+
+		margin-top:2*$margin;
+		text-align:center;
+		width:100%;
+		margin-bottom: 5*$margin;
+		p:first-child{
+
+			color:white;
+			font-size: 30px;
+		}
+		p:last-child{
+
+			color:white;
+			font-size: 20px;
+		}
+	}
+	div:nth-child(2){
+
+		float:left;
+		text-align: right;
+		margin-left:10*$margin;
+
+		li {
+
+			color:white;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	div:nth-child(3){
+
+		background: url('../img/demo-1.png');
+		background-size: cover;
+		width: 500px;
+		height: 300px;
+		float: left;
+		margin-left:10*$margin;
+	}
+
+	div:nth-child(4){
+
+		float:left;
+		text-align: left;
+		margin-left:10*$margin;
+
+			li {
+
+			color:white;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+}

@@ -1,0 +1,86 @@
+.services{
+	
+	width: 100%;
+	overflow: hidden;
+	--border:1px solid black;
+	div {
+
+		margin-left:100px;
+		text-align: center;
+		h1,h2 {
+			color:$boz;
+		}
+		h1 {
+			font-size: 70px;
+			line-height: 100px;
+			border-bottom: 2px solid lighten($boz,30%);
+		}
+		h2 {
+			font-size: 30px;
+			line-height: 70px;
+			border-bottom: 2px solid lighten($boz,30%);
+		}
+		.free{
+
+			color:lighten($boz,30%);
+			padding-top:20px;
+			padding-bottom: 20px;
+		}
+
+	}
+	div:first-child{
+
+		width:100%;
+		margin-top:30px;
+		p:first-child{
+
+			
+			font-size: 30px;
+			color:$boz;
+			
+		}
+		p:last-child{
+			
+			font-size: 20px;
+			color:$boz;
+			line-height: 40px;
+		}
+
+	}
+
+	div:nth-child(2){
+
+		width:260px;
+		height: 420px;
+		border:1px solid $boz;
+		float: left;
+		margin:2*$margin;
+		margin-left:50px;
+
+	}
+	div:nth-child(3){
+
+		width:260px;
+		height: 420px;
+		border:1px solid $boz;
+		float: left;
+		margin:2*$margin;
+	}
+	div:nth-child(4){
+
+		width:260px;
+		height: 420px;
+		border:1px solid $boz;
+		float: left;
+		margin:2*$margin;
+	}
+	div:nth-child(5){
+
+		width:260px;
+		height: 420px;
+		border:1px solid $boz;
+		float: left;
+		margin:2*$margin;
+	}
+
+}

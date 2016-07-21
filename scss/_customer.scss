@@ -1,0 +1,25 @@
+.customer {
+	
+	width: 100%;
+	background: lighten($boz, 60%);
+	text-align: center;
+	 h1{
+
+	 	color:$boz;
+	 	font-size: 50px;
+	 	line-height: 100px;
+	 }
+	 p {
+	 	padding-left:200px;
+	 	padding-right:200px;
+	 }
+	 h6 {
+
+	 	font-size:20px;
+	 	color:lighten($boz, 10%);
+	 	line-height: 50px;
+	 }
+	 
+
+}
+

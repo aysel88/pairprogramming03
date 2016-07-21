@@ -1,0 +1,26 @@
+.news {
+	
+	width:1200px;
+	margin:0 auto;
+
+	p{
+		width: 100%;
+		text-align: center;
+		font-size: 50px;
+		color:$boz;
+		line-height: 80px;
+	}
+	div {
+		background: url('../img/resim.jpg');
+		background-size: cover;
+		width:265px;
+		height: 190px;
+		float: left;
+		margin:5px;
+		color:white;
+		h6 {
+
+			margin-top:160px;
+		}
+	}		
+}
